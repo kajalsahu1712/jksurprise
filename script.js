@@ -221,7 +221,7 @@ My life is brighter because u're in it ✨
 Aunty and Uncle ko dher saara pyaar and salute 🫡
 Thanks to them, mujhe itna pyaara insaan mila 🥰
 Unhe bol do ab vo rest and relax karein 😌
-Kyunki ab se lekar future tak main tumhe sambhal lungi 😉
+Kyunki ab se lekar future tak mai tumhe sambhal lungi 😉
 No nazar 🧿🤞`,
     ()=>{
         document.body.addEventListener(
