@@ -74,7 +74,7 @@ function startCountdown(){
             document.body.style.background="#fff8dc";
 
             text.style.color="black";
-            text.style.fontSize="30px";
+            text.style.fontSize="50px";
 
             video.style.display="block";
 
