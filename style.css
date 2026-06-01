@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    background:#fff8dc;
+    font-family:Arial;
+    overflow:hidden;
+}
+
+#container{
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+/* ?? BIGGER VIDEO */
+#mainVideo{
+    width:90vw;
+    max-width:900px;
+    max-height:70vh;
+
+    object-fit:contain;
+
+    border-radius:20px;
+}
+
+/* ?? INTRO TEXT STYLE */
+#text.introText{
+    font-size:100px;
+    font-family:"Comic Sans MS", cursive;
+    font-weight:bold;
+    color:#222;
+}
+
+/* ?? NORMAL MESSAGE TEXT */
+#text{
+    width:80vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    font-size:30px;
+    margin-top:20px;
+
+    min-height:120px;
+
+    white-space:pre-line;
+}
+
+.sparkleText{
+
+    font-size:18px !important;
+
+    font-family:"Georgia", serif;
+
+    font-weight:600;
+
+    white-space:pre-line;
+
+    text-shadow:
+    0 0 5px white,
+    0 0 10px gold,
+    0 0 20px gold;
+
+    animation:sparkle 1.5s infinite alternate;
+}
+
+@keyframes sparkle{
+    from { transform:scale(1); }
+    to { transform:scale(1.02); }
+}
+
+#buttons{
+    margin-top:15px;
+}
+
+button{
+    padding:12px 20px;
+    font-size:20px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+/* ?? BIRTHDAY TEXT */
+#birthdayText{
+    position:absolute;
+    top:3vh;
+    left:0;
+
+    width:100%;
+
+    text-align:center;
+
+    font-size:60px;
+    font-weight:bold;
+
+    color:white;
+
+    text-shadow:
+    0 0 10px white,
+    0 0 20px gold,
+    0 0 40px gold,
+    0 0 60px gold;
+
+    animation:sparkle 1.5s infinite alternate;
+
+    z-index:10;
+}
+
+@keyframes sparkle{
+
+    from{
+        text-shadow:
+        0 0 10px white,
+        0 0 20px gold,
+        0 0 40px gold,
+        0 0 60px gold;
+    }
+
+    to{
+        text-shadow:
+        0 0 20px white,
+        0 0 40px gold,
+        0 0 80px gold,
+        0 0 120px gold;
+    }
+}
+
+#fireCanvas{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+}
